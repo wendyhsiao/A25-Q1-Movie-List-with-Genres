@@ -1,0 +1,29 @@
+*{margin: 0; adding: 0;
+  box-sizing: border-box;}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  grid-gap: 5px;
+}
+
+.list-group li{
+  padding: 0;  
+}
+.list-group-item a{
+  display: block;
+  padding: 20px;
+}
+
+.card-title, .card-genres{
+  padding: 10px 0 0 20px;
+}
+
+.genres-items{
+  list-style-type :none;
+  display: inline-block;
+  background-color: #f3f3f3; 
+  font-size: 8px;
+  padding: 5px;
+  margin:0 5px 5px 0;
+}
